@@ -12,3 +12,112 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    background-color: #dddddd;
+
+}
+
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
+    border-color: #ffd24a;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#site_header {
+    padding: 0.5em 2em;
+    text-decoration: none;
+    color: #ff8523;
+    font-weight: bold;
+    background-color:orange;
+
+}
+
+.main_navigation{
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+
+.main_navigation a{
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px solid #DDDDDD;
+    color:white;
+    font-weight: bold;
+}
+
+.main_navigation a:hover{
+    color: white;
+    background-color: #D1D67C;
+}
+
+#page_content {
+  padding: 20px;
+  border-color:#ffd24a;
+}
+
+
+section h2 {
+  color: #046c97;
+}
+h3 {
+  color: #046c97;
+}
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+tr img {
+  width: 50px;
+}
+
+thead tr{
+  background-color: #1fabe5;
+}
+
+tbody tr td{
+  border-color: #1fabe5;
+}
+
+section {
+  border-bottom:5px solid #dddddd;
+  padding-bottom:50px;
+}
+form{
+background-color: #eee;
+padding: 10px;
+}
+.name{
+  background-color: #ff8523;
+  padding:10px;
+
+
+}
+textarea{
+
+  border-color:#1fabe5;
+}
+
+.city_container{
+  margin-top: 10px;
+  margin-bottom:10px; 
+}
