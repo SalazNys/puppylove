@@ -52,6 +52,7 @@ body > div{
     border: 1px solid #DDDDDD;
     color:white;
     font-weight: bold;
+    border-radius:5px;
 }
 
 .main_navigation a:hover{
@@ -119,5 +120,25 @@ textarea{
 
 .city_container{
   margin-top: 10px;
-  margin-bottom:10px; 
+  margin-bottom:10px;
+}
+.submit_container input{
+  background-color:#1fabe5;
+  border-radius:6px;
+  padding: 10px;
+}
+.name label{
+  color:white;
+
+}
+
+thead tr td{
+  color:white;
+}
+.city_container label{
+  font-weight: bold;
+}
+
+div label{
+  font-weight: bold;
 }
